@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Effects Practice</title>
+
+    <link rel="stylesheet" href="design.css">
+
+</head>
+
+<body>
+
+    <h1>CSS Effects Practice</h1>
+
+    <p class="intro">
+        Hover over the boxes and observe what happens.
+    </p>
+
+    <section>
+
+        <h2>1. Border Image</h2>
+
+        <div class="border-image-box">
+
+            <h3>Border Image</h3>
+
+            <p>
+                This box uses an image for its border.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>2. Gradients</h2>
+
+        <div class="boxes">
+
+            <div class="box linear">
+                Linear Gradient
+            </div>
+
+            <div class="box radial">
+                Radial Gradient
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>3. Text Effects</h2>
+
+        <div class="text-box">
+
+            <h3 class="shadow">
+                Text Shadow
+            </h3>
+
+            <h3 class="spacing">
+                Letter Spacing
+            </h3>
+
+            <h3 class="uppercase">
+                text transform
+            </h3>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>4. Translate</h2>
+
+        <div class="boxes">
+
+            <div class="transform-box translate">
+                Hover Me
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>5. Rotate</h2>
+
+        <div class="boxes">
+
+            <div class="transform-box rotate">
+                Hover Me
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>6. Scale</h2>
+
+        <div class="boxes">
+
+            <div class="transform-box scale">
+                Hover Me
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>7. Skew</h2>
+
+        <div class="boxes">
+
+            <div class="transform-box skew">
+                Hover Me
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>8. Transition</h2>
+
+        <p class="instruction">
+            Move your mouse over the box.
+        </p>
+
+        <div class="transition-box">
+            Hover Me
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>9. Transition Timing</h2>
+
+        <p class="instruction">
+            Hover over the boxes.
+        </p>
+
+        <div class="timing-boxes">
+
+            <div class="timing ease">
+                Ease
+            </div>
+
+            <div class="timing linear-timing">
+                Linear
+            </div>
+
+            <div class="timing ease-in">
+                Ease In
+            </div>
+
+            <div class="timing ease-out">
+                Ease Out
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>10. Animation</h2>
+
+        <div class="animation-area">
+
+            <div class="moving-box">
+                Moving
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>11. Keyframe Animation</h2>
+
+        <div class="bounce-area">
+
+            <div class="ball"></div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            HTML + CSS Practice
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
