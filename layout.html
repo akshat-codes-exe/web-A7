@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 01</title>
+    <style>
+        main{
+            width: 900px;
+            height: 1000px;
+            background-color: beige;
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            gap: 10px;
+        }
+        div{
+            /* width: 900px; */
+            background-color: azure;
+            flex-grow: 1;
+            align-content: center;
+            text-align: center;
+        }
+        #ccntainer{
+            display: flex;
+            flex-direction: row;
+            gap: 0 5px;
+            flex-wrap: wrap;
+            align-content: normal; 
+        }
+        #ccntainer div{
+            background-color: aqua; 
+        }
+    </style>
+</head>
+<body>
+   <main>
+
+    <div><H1>Header 1</H1></div>
+    <div><h2>Nav</h2></div>
+    <div id="ccntainer">
+        <div><h2>Box 1</h2></div>
+        <div><h2>Box 2</h2></div>
+        <div><h2>Box 3</h2></div>
+    </div>
+    <div>
+        <h2>Footer</h2>
+    </div>
+   </main>
+</body>
+</html>

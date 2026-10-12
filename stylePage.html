@@ -1,31 +1,50 @@
-<HTml><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        h1{
-            color:blue !important;
-        background-color:antiquewhite;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 2em;
-        font-weight: bold;
-        font-style: italic;     }
-        p{
-            text-align: left;
-            text-decoration: line-through;
-            text-transform: capitalize;
-            text-shadow: 0px 1px 2px #986a76;
-            text-indent: 90px;
-        }
-        <div id="box";
-        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-        </div>
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS- Font | Text | CSS Box Model(w/h/m/p/b)</title>
+    <style>
+      h1{
+        color:blue !important;
+        background-color: antiquewhite;
+      font-family:time new roman;
+        /* font-size: 5em; */
+        font-weight: 100;
+        font-style: italic;
+      }
+      p{
+        text-align: left;
+        text-decoration:line-through;
+        text-transform:capitalize;
+        text-shadow: 0px 1px 2px #986a76;
+        text-indent: 90px;        
+      }
+      #box{
+        width: 200px;
+        height: 200px;
+        background: #CCC;
+        border: 5px solid #000;
+        margin: 0px 10px 6px 5px;
+        padding: 10px 35px; 
+        box-sizing: border-box;
+      }
+    </style>
+
 </head>
 <body>
-    <h1 style="font-size: 2em; color: aqua;">Hello, World!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quod, ratione nostrum fugiat architecto iste sunt iusto rem, dolorem ex, voluptatibus consequuntur placeat. Architecto ab nisi provident, necessitatibus esse quia?</p>
+    <!-- css - inline / internal and external -->
+     <h1 style="font-size: 4em; color: rgb(167, 196, 196);">Hello World!</h1>
+ <p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempora corporis perferendis quaerat dicta cupiditate rem consectetur quas iste, alias, ad assumenda, est ipsa culpa officia. Suscipit beatae sed ex.
+ </p>
+ <!-- box model -->
+  <div id="box">
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus officia ad necessitatibus voluptatibus culpa alias, eveniet laudantium commodi libero sunt, provident cupiditate corporis velit perspiciatis ab suscipit illum expedita.
+</p>
+  </div>
+  
+    
 </body>
-</html></HTml></HTLM>
+</html>

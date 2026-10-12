@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,html{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            display: grid;
+            grid-template-rows: 100px 200px 300px 50px;
+            grid-template-columns: 1;
+            gap: 10px;
+        }
+        div{
+            background-color: aqua;
+        }
+        #container{
+       display: grid;
+       grid-template-rows: 1;
+       grid-template-columns: repeat(3,1fr);
+       /* justify-content: space-between; */
+       gap: 10px;
+        }
+        #container div{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div></div>
+    <div></div>
+    <div id="container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div></div>
+    </main>
+   
+    
+</body>
+</html>
