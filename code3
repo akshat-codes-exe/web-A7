@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        *,html{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 600px;
+            height: 900px;
+            background-color: rgb(167, 196, 196);
+            margin: 0px auto;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <form>
+            <div>
+                <lable>Your Name :</lable>
+                <input type="text" placeholder="Enter your name"/>
+            </div>
+            <div>
+                <label>Your Email :</label> 
+                <input type="email" placeholder="Enter your email"/>
+            </div>
+            <div>
+                <label>Your Phone No. :</label>
+                <input type="tel" placeholder="Enter your phone number"/>
+            </div>
+            <div>
+                <label>Your DOB :</label>
+                <input type="date"/>
+            </div>
+            <div>
+                <label>Your Gender :</label>
+                <input type="radio" name="gender" value="male"/>
+                <label>Male</label>
+                <input type="radio" name="gender" value="female"/>
+                <label>Female</label>
+                <input type="radio" name="gender" value="other"/>
+                <label>Other</label>
+            </div>
+            <div>
+                <lable>Your Course</lable>
+                <input type="checkbox" name="course" value="html"/>
+                <label>HTML</label> 
+                <input type="checkbox" name="course" value="css"/>
+                <label>CSS</label>  
+                <input type="checkbox" name="course" value="javascript"/>
+                <label>JavaScript</label>
+            </div>
+
+            <div>
+                <label>Your Country :</label>
+                <select>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Your Address :</label>
+                <textarea placeholder="Enter your address" cols="20" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit"/>
+                <input type="reset" value="Reset"/>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
